@@ -1,34 +1,41 @@
 {
-    "name": "shakahl/laravel-eloquent-mysqli",
-    "type": "library",
-    "description": "MySQLi driver (connector) for Laravel 8.x Eloquent database",
-    "keywords": ["Laravel", "Lumen", "MySQL", "mysqli", "driver", "connector"],
-    "homepage": "http://github.com/shakahl/laravel-eloquent-mysqli",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Soma Szelpal",
-            "email": "szelpalsoma@gmail.com",
-            "homepage": "https://github.com/shakahl"
-        }
-    ],
-    "require": {
-        "php": ">=7.2",
-        "illuminate/contracts": "8.*",
-        "illuminate/database": "8.*",
-        "illuminate/support": "8.*"
-    },
-    "require-dev": {
-        "phpunit/phpunit": "~5.7"
-    },
-    "autoload": {
-        "psr-4": {
-            "LaravelEloquentMySQLi\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "LaravelEloquentMySQLi\\Tests\\": "tests/"
-        }
+  "name": "shakahl/laravel-eloquent-mysqli",
+  "type": "library",
+  "description": "MySQLi driver (connector) for Laravel 8.x Eloquent database",
+  "keywords": [
+    "Laravel",
+    "Lumen",
+    "MySQL",
+    "mysqli",
+    "driver",
+    "connector"
+  ],
+  "homepage": "http://github.com/shakahl/laravel-eloquent-mysqli",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Soma Szelpal",
+      "email": "szelpalsoma@gmail.com",
+      "homepage": "https://github.com/shakahl"
     }
+  ],
+  "require": {
+    "php": ">=7.2",
+    "illuminate/contracts": "9.*",
+    "illuminate/database": "9.*",
+    "illuminate/support": "9.*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~5.7"
+  },
+  "autoload": {
+    "psr-4": {
+      "LaravelEloquentMySQLi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LaravelEloquentMySQLi\\Tests\\": "tests/"
+    }
+  }
 }
